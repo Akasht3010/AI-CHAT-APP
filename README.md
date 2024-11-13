@@ -1,8 +1,40 @@
-# React + Vite
+# AI Chat Bot using Gemini API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is an AI-powered chat bot built with Vite and React. Users can type custom questions, and the app uses Google's Gemini API to generate responses.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Custom question input with a responsive UI
+- AI-powered answer generation using the Gemini API
+- Styled with CSS for a clean and user-friendly interface
+
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- [Node.js](https://nodejs.org/) (version 12 or higher)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
+
+## Getting Started
+
+### 1. Clone the Repository
+
+Clone this repository to your local machine:
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+2. Install Dependencies
+Use npm to install the dependencies:
+
+npm install
+3. Set Up the Gemini API Key
+Obtain your Gemini API key from Google Cloud and create a .env file in the project root directory. Add your API key in the .env file as follows:
+
+VITE_GEMINI_API_KEY=your-gemini-api-key-here
+Replace your-gemini-api-key-here with your actual API key.
+
+4. Run the App
+To start the development server, run:
+
+npm run dev
