@@ -24,17 +24,22 @@ Clone this repository to your local machine:
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
-2. Install Dependencies
+```
+
+### 2. Install Dependencies
 Use npm to install the dependencies:
-
+```bash
 npm install
-3. Set Up the Gemini API Key
+```
+
+### 3. Set Up the Gemini API Key
 Obtain your Gemini API key from Google Cloud and create a .env file in the project root directory. Add your API key in the .env file as follows:
-
+```bash
 VITE_GEMINI_API_KEY=your-gemini-api-key-here
-Replace your-gemini-api-key-here with your actual API key.
+```
 
-4. Run the App
+### 4.Run the App
 To start the development server, run:
-
+```bash
 npm run dev
+```
